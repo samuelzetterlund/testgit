@@ -1,10 +1,8 @@
 <?php
-include "inc/db.php"; //  Hämtar in databaskopplingen
+include "inc/db.php"; //  Hï¿½mtar in databaskopplingen
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 
 <HTML>
 <HEAD>
@@ -93,7 +91,7 @@ for ($i=0; $i<100; $i++)
       echo $weeknumber;
     echo "</td>";
     
-    //månad
+    //mï¿½nad
     echo "<td class='cmd'>";
     if ($newmonth != $month)
       echo "<b>" . date("M", mktime(0, 0, 0, $month, substr($day,8,2), $year)) . "</b>";
