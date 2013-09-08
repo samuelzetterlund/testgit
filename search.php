@@ -1,28 +1,5 @@
 <?php
-/**
- *
- * Description: Template for the Search Results page.
- *
- */
-get_header(); ?>
 
-	<div id="main">
-	
-		<div class="container">
-	
-			<section id="recent-news">
-	
-				<header class="section-heading row">
-				
-					<div class="sixteen columns">
-				
-						<div class="mask">
-							<h1><span><?php _e( 'Search Results', 'hanna' ); ?></span></h1>
-						</div>
-					
-					</div>
-					
-				</header>
 				
 				<section id="post-content" class="ten columns alpha">
 				
